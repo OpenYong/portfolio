@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Josefin+Sans:wght@300;400&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7f7e98f70a.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포트폴리오</title>
+  </head>
+  <body>
+    <section class="main-section">
+      <div class="logo-container">
+        <div class="logo">YONG</div>
+      </div>
+      <button class="menu-btn" id="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav>
+        <ul id="nav-links" class="nav-links">
+          <a id="nav-close"><i class="fa-solid fa-xmark"></i></a>
+          <li id="nav-list"><a class="nav" href="#introduce">About Me</a></li>
+          <li id="nav-list"><a class="nav" href="#project">Projects</a></li>
+          <li id="nav-list"><a class="nav" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="main-container">
+        <div class="main-text">
+          <p>WELCOME EVERYONE</p>
+          <h1>포트폴리오 페이지에 오신 것을 환영합니다!</h1>
+          <div class="btn"><a href="#introduce">소개</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sub-section" id="introduce">
+      <div class="info">
+        <h2>ABOUT ME</h2>
+        <p>
+          I'm Yong Lee - a Full Stack, Mobile Developer in South Korea.<br />
+          Currently I'm looking for a job as a junior developer. <br />Please
+          take a look at my work and contact me if you have any feedback.
+        </p>
+      </div>
+      <div></div>
+    </section>
+
+    <section class="sub-section-alt" id="project">
+      <h2>PROJECTS</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/assets/alt-img.jpeg"
+            alt="project img"
+          />
+          <div class="project-text-container">
+            <h3>
+              <a href="https://github.com/OpenYong/GrabYourCoffee">
+                Grab Your Coffee
+                <i class="fa-solid fa-arrow-right"> </i
+              ></a>
+            </h3>
+            <p class="card-text">테이크아웃 커피 주문 어플리케이션</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/assets/alt-img.jpeg"
+            alt="project img"
+          />
+          <div class="project-text-container">
+            <a href="">
+              <h3>Grab Your Coffee <i class="fa-solid fa-arrow-right"></i></h3>
+            </a>
+            <p class="card-text">테이크아웃 커피 주문 어플리케이션</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <h2>CONTACT</h2>
+      <div class="social-icons">
+        <a href="https://github.com/OpenYong" class="social-icon">
+          <img class="github-logo" src="src/assets/github-light.png" />
+        </a>
+      </div>
+    </footer>
+    <script src="src/app.js"></script>
+  </body>
+</html>
