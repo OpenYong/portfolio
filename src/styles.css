@@ -67,8 +67,9 @@ h1 {
 
 h2 {
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   margin: 0;
+  margin-bottom: 1rem;
 }
 
 .footer h2 {
@@ -220,10 +221,18 @@ a {
     margin: 0;
   }
 
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+  }
+
   p {
     margin: 0;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 1.5rem;
   }
 
   body {
@@ -259,6 +268,14 @@ a {
     display: block;
     text-align: right;
     cursor: pointer;
+  }
+
+  .sub-section {
+    padding: 20px;
+  }
+
+  .sub-section-alt {
+    padding: 20px;
   }
 }
 
