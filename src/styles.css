@@ -195,13 +195,15 @@ a {
     margin: 0;
     width: 100%;
     justify-content: center;
+    padding: 0rem;
+    padding-top: 1rem;
   }
 
   .menu-btn {
     display: block;
     position: absolute;
-    left: 30px;
-    top: 30px;
+    left: 1rem;
+    top: 1rem;
     border: 0;
     background-color: transparent;
     color: white;
