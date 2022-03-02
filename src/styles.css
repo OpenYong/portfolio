@@ -181,7 +181,8 @@ a {
 }
 
 .project-image {
-  width: 100%;
+  width: auto;
+  height: 25rem;
 }
 
 .project-text-container {
